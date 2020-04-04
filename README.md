@@ -16,7 +16,7 @@ Add `'django_readonly_model'` to your `INSTALLED_APPS` setting.
 
     INSTALLED_APPS = [
         ...
-        'django_readonly_model',
+        'readonly_model',
     ]
 
 And just use:
