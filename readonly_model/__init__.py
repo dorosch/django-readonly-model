@@ -1,1 +1,1 @@
-default_app_config = 'django_readonly_model.apps.ReadOnlyModelAppConfig'
+default_app_config = 'readonly_model.apps.ReadOnlyModelAppConfig'
