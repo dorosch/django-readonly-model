@@ -1,5 +1,7 @@
 # django-readonly-model
 
+[![Build Status](https://travis-ci.org/dorosch/django-readonly-model.svg?branch=master)](https://travis-ci.org/dorosch/django-readonly-model)
+
 The easiest way to create read-only models
 
 
