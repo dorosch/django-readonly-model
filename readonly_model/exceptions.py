@@ -1,0 +1,2 @@
+class ReadOnlyModel(Exception):
+    pass
