@@ -1,3 +1,9 @@
+sudo: false
+
+notifications:
+  email: false
+
+
 language: python
 
 python:
@@ -9,9 +15,13 @@ python:
   - "3.8-dev"
   - "nightly"
 
+install:
+  - pip install Django pytest pytest-cov
+
 script:
   - python setup.py sdist
   - pip install ./dist/django-readonly-model-*.tar.gz
+  - pytest --cov=readonly_model
 
-notifications:
-    email: false
+after_success:
+  - codecov
