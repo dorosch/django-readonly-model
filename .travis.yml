@@ -19,9 +19,9 @@ install:
   - pip install Django pytest pytest-cov
 
 script:
-  - python setup.py sdist
-  - pip install ./dist/django-readonly-model-*.tar.gz
   - pytest --cov=readonly_model
+  - python setup.py sdist bdist_wheel
+  - pip install ./dist/django-readonly-model-*.tar.gz
 
 after_success:
   - codecov
