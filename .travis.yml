@@ -14,7 +14,7 @@ python:
   - "nightly"
 
 install:
-  - pip install Django pytest pytest-django pytest-cov
+  - pip install Django pytest pytest-django pytest-cov codecov
 
 script:
   - pytest --cov=readonly_model tests
