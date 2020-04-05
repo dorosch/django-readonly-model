@@ -13,7 +13,7 @@ setup(
     long_description_content_type='text/markdown',
     author=readonly_model.__author__,
     author_email=readonly_model.__email__,
-    packages=find_packages(),
+    packages=find_packages(exclude=['tests*']),
     include_package_data=True,
     zip_safe=False,
     classifiers=[
