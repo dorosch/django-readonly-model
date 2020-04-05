@@ -7,8 +7,6 @@ notifications:
 language: python
 
 python:
-  - "3.4"
-  - "3.5"
   - "3.6"
   - "3.7"
   - "3.8"
@@ -16,10 +14,10 @@ python:
   - "nightly"
 
 install:
-  - pip install Django pytest pytest-cov
+  - pip install Django pytest pytest-django pytest-cov
 
 script:
-  - pytest --cov=readonly_model
+  - pytest --cov=readonly_model tests
   - python setup.py sdist bdist_wheel
   - pip install ./dist/django-readonly-model-*.tar.gz
 
