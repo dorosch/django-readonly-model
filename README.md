@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/dorosch/django-readonly-model.svg?branch=master)](https://travis-ci.org/dorosch/django-readonly-model)
 [![codecov](https://codecov.io/gh/dorosch/django-project-start/branch/master/graph/badge.svg)](https://codecov.io/gh/dorosch/django-project-start)
+[![PyPI version](https://badge.fury.io/py/django-readonly-model.svg)](https://badge.fury.io/py/django-readonly-model)
 
 The easiest way to create read-only models
 
