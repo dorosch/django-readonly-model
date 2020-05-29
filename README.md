@@ -19,9 +19,8 @@ Add `'readonly_model'` to your `INSTALLED_APPS` setting:
 
     INSTALLED_APPS = [
         ...
-        'readonly_model'
+        'readonly_model',
     ]
-
 
 ## Example
 
